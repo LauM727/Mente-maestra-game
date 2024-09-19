@@ -1,0 +1,26 @@
+@media (min-width:375px){
+    .logo{
+        display: flex;
+        object-fit: cover;
+        width: 8rem;
+    }
+    .begin-screen{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .begin-screen h2{
+        font-size: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+    }
+    .beginWindow{
+        padding-top: 11rem;
+        height: 100vh;
+        width: 100vw; 
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

@@ -1,0 +1,7 @@
+@media (min-width:375px){
+    form div {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0.5rem;
+    }
+}

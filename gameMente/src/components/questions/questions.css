@@ -1,0 +1,91 @@
+@media (min-width: 23.4375rem) {
+    .question-container {
+        background-color: #fff5f5;
+        border-radius: 0.9rem;
+        padding: 1rem;
+        width: 90%;
+        margin: 1.25rem auto; 
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2); 
+        position: relative;
+    }
+
+    .points {
+        background-color: #ffffff;
+        padding: 0.3rem 0.6rem;
+        border-radius: 0.6rem; 
+        position: absolute;
+        top: -1.25rem;
+        left: 1.25rem; 
+        font-size: 1rem;
+        font-weight: bold;
+        color: #d32f2f;
+    }
+
+    .question-text {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 1.25rem;
+        color: #333;
+    }
+
+    .options-form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+
+    .option-container {
+        background-color: white;
+        border-radius: 1rem;
+        padding: 0.2rem;
+        border: 0.1rem solid transparent; 
+        transition: border-color 0.3s;
+    }
+
+    .option-container input[type="radio"] {
+        display: none;
+    }
+
+    .option-label {
+        display: block;
+        color: #000;
+        font-size: 0.8rem;
+        padding: 0.6rem 0.9rem;
+        border-radius: 1.5625rem; 
+        text-align: center;
+        background-color: #ffffff;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .option-label:hover {
+        background-color: #ffcdd2;
+    }
+
+    .option-container input[type="radio"]:checked + .option-label {
+        background-color: #ff5252;
+        color: white;
+        border-color: #ff5252;
+    }
+
+    .submit-button {
+        background-color: #d32f2f;
+        color: white;
+        padding: 0.625rem 1.25rem; 
+        border: none;
+        border-radius: 1.5625rem;
+        font-size: 1.2rem;
+        cursor: pointer;
+        width: 100%;
+        transition: background-color 0.3s ease;
+    }
+
+    .submit-button:disabled {
+        background-color: #e57373;
+        cursor: not-allowed;
+    }
+
+    .submit-button:hover:enabled {
+        background-color: #c62828;
+    }
+}

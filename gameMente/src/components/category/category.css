@@ -1,0 +1,21 @@
+@media (min-width:375px){
+    .categorySection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .categoryBtn{
+        font-size: 0.8rem;
+        color: #202020;
+        text-align: center;
+        border-radius: 20px;
+        background: #E4FFFD;
+        margin: 0.3rem;
+    }
+    .btnSection{
+        padding-left: 2rem;
+    }
+    .scoreboard{
+        text-align: center;
+    }
+}

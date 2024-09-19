@@ -1,0 +1,31 @@
+.timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.timer-bar {
+    width: 80%;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.timer-progress {
+    height: 100%;
+    transition: width 1s linear;
+}
+
+.timer-info {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.question-points {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}

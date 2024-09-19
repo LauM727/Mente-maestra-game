@@ -1,0 +1,9 @@
+@media (min-width: 375px) and (max-width: 1024px){
+.start-screen {
+    background-color: #00BBAF;
+}
+.logo{
+    width: 280px; /* Ajusta según sea necesario */
+    height: auto;
+}
+}

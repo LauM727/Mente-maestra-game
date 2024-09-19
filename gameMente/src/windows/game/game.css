@@ -1,0 +1,60 @@
+@media (min-width:375px){
+    .error h1{
+        font-size: 2rem;
+    }
+
+    .timer-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    
+    .progress-bar {
+        width: 80%;
+        height: 20px;
+        background-color: #e0e0e0;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .progress-bar-fill {
+        height: 100%;
+        background-color: red;
+        transition: width 1s linear;
+    }
+    
+    .timer-text {
+        margin-left: 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    /*Jugador selecciona categoría*/
+    .game-screen{
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .game-screen h1{
+        margin: 0;
+        padding-top: 2rem;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .game-screen h2{
+        padding-left: 0.8rem;
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    .game-screen p{
+        padding-left: 1rem;
+    }
+
+    /*Pantalla para robar puntos*/
+}
